@@ -1,0 +1,51 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font: "Poppins", sans-serif;
+}
+.user-info h1,
+h2 {
+  font-family: var(--font);
+}
+.user-info h1 {
+  font-size: 1.1rem !important;
+}
+.user-info h2 {
+  font-size: 1rem;
+  color: #595959;
+}
+.user-card {
+  width: auto;
+  height: auto;
+}
+.user-profile {
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+}
+.site-card-wrapper {
+  margin: 20px 20px;
+}
+.user-info .fa-solid {
+  margin-right: 10px;
+}
+.card-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.card-actions .fa-solid,
+.fa-regular {
+  font-size: 1.1rem;
+}
+.card-actions .fa-solid {
+  color: #898989;
+}
+.card-actions .fa-solid:hover {
+  color: #33bbff;
+}
